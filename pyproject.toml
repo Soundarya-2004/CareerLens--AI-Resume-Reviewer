@@ -1,1 +1,14 @@
+[tool.poetry]
+name = "careerlens"
+version = "0.1.0"
+description = "AI Resume Reviewer"
+authors = ["Soundarya <your-email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "*"
+google-generativeai = "*"
+PyPDF2 = "*"
+python-dotenv = "*"
+
 package-mode = false
